@@ -10,7 +10,7 @@ public class EntryPoint {
         applicaiton.windowConfiguration.title = "Pixel Pulse";
         applicaiton.windowConfiguration.vSyncEnabled = true;
 
-        applicaiton.launchApplication();
+        applicaiton.launchApplication(GameScene.class, false);
 
     }
 
